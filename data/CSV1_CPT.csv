@@ -1,0 +1,50 @@
+﻿QuestionCode,Question,Fullmark,RightAnswer
+CPT001,What are the key phases of the Software Development Life Cycle (SDLC)?,12,"The key phases of the SDLC are:
+     1. <Point1:1>Requirement Gathering<Point1:1>: <Point2:1>Collecting requirements from stakeholders to understand what needs to be developed<Point2:1>.
+     2. <Point3:1>System Analysis and Design<Point3:1>: <Point4:1>Analyzing the requirements and creating a blueprint of the system<Point4:1>.
+     3. <Point5:1>Implementation (Coding) <Point5:1>: <Point6:1>Writing the code as per the design documents<Point6:1>.
+     4. <Point7:1>Testing<Point7:1>: <Point8:1>Verifying the system against the requirements to identify and fix defects<Point8:1>.
+     5. <Point9:1>Deployment<Point9:1>: <Point10:1>Releasing the software to the production environment for users<Point10:1>.
+     6. <Point11:1>Maintenance<Point11:1>: <Point12:1>Ongoing support and enhancement of the software post-deployment<Point12:1>.
+"
+CPT002,What is the difference between the Waterfall model and the Agile model?,9,"Waterfall Model:<Point1:2>A linear and sequential approach where each phase must be completed before the next begins<Point1:2>. <Point2:1> The process flows in one direction like a waterfall, moving from one phase to the next without overlapping or iteration<Point2:1>. <Point3:1>Difficulty in Changes: Changes are difficult to implement once a phase is completed, as it requires revisiting and potentially redoing previous phases<Point3:1>.
+Agile Model: <Point4:2>An iterative and incremental approach that focuses on flexibility, collaboration, and customer feedback<Point4:2>. <Point5:1> Development occurs in small, manageable increments called iterations<Point5:1>, which allow for regular reassessment and adaptation. <Point6:1> Agile allows for continuous feedback from stakeholders and adaptability to changing requirements throughout the development process<Point6:1>.
+<Point7:1> Changes can be made at any stage of the development process, accommodating evolving requirements and priorities<Point7:1>.
+"
+CPT003,What is cohesion? And what is high and low,8,"Cohesion indicates the <Point1:2>bond strength between elements in a module<Point1:2>. It measures the <Point2:2>relationship strength between the data of a class/methods and the unifying factor or purpose the class serves<Point2:2>. High cohesion means that <Point3:2>the elements within a module are closely related and work together towards a common goal<Point3:2>, while low cohesion implies that <Point4:2>the elements are loosely related and do not have a clear or unified purpose<Point4:2>."
+CPT004,What are internal milestones in software engineering?,11,"Internal milestones are <Point1:2>measurable and important attributes of processes<Point1:2>. They are <Point2:1>standard systematic procedures <Point2:1> that  <Point3:1>indicate that the engineers are on the right path<Point3:1>. These milestones can be used to <Point4:2>assess the development team's progress<Point4:2>, <Point5:1>identify issues and risks<Point5:1>, and <Point6:1>make necessary adjustments to the project plan<Point6:1>. They can be related to various aspects of the project, such as <Point7:1>completing a specific feature<Point7:1>, <Point8:1>testing and debugging the code<Point8:1>, or <Point9:1>reaching a certain level of performance or functionality<Point9:1>."
+CPT005,What is the Rapid Application Development (RAD) model?,7,"The RAD model is an <Point1:>iterative and prototyping approach<Point1:1> to software development that<Point2:1>emphasizes less time spent on traditional planning phases and more on software development<Point2:1>. It involves a <Point3:1>series of smaller development cycles, including planning, design, construction, and testing<Point3:1>, with a focus on <Point4:1>quick delivery of functional software to clients and stakeholders<Point4:1>. The RAD model incorporates <Point5:2>feedback from end-users and stakeholders to refine and improve the software<Point5:2>."
+CPT006,请简单分析顺序图和活动图的区别。,12,"活动图反映系统中从一个活动到另一个活动的流程，强调对象间的控制流程。（2分）活动图特
+别适合描述工作流和并行处理过程。（2分）具体地说活动图可以描述一个操作过程中需要完成的活
+动；（1分）描述一个对象内部的工作；（1分）描述如何执行一组相关的动作，以及这些动作如何影响它们
+周围的对象；（1分）说明一个业务活动中角色、工作流、组织和对象是如何工作的。（2分）
+顺序图用于描述一组交互对象间的交互方式，它表示完成某项行为的对象和这些对象之
+间传递消息的时间顺序。（3 分）"
+CPT007,请简要描述敏捷开发的核心价值和原则.,8,敏捷开发的核心价值包括个体和互动、工作软件、客户合作和响应变化。（4分）原则包括优先做有价值的工作、工作软件胜于详尽的文档、客户合作胜于合同谈判、应对变化胜于遵循计划。（4分）
+CPT008,简述需求分析的概念及需求分析的基本任务。,5,需求分析是指开发人员要准确理解用户的要求，进行细致的调查分析，将用户非形式的需求陈述转化为完整的需求定义，再由需求定义转换到相应的形式功能规约(需求规格说明)的过程。(3分)需求分析的基本任务是要准确地定义新系统的目标，为了满足用户需要，回答系统必须“做什么”的问题。(2分)
+CPT009,软件测试要经过哪些步骤？简述这些测试的基本任务.,12,"（1）单元测试、集成测试、确认测试、系统测试。（4分）
+（2）单元测试：对源程序中的每个程序单元进行测试，检查各模块是否正确实现规定的功能，从而发现模块在编码中或算法中的错误。（2分）
+（3）集成测试：检查与设计相关的软件结构的有关问题。（2分）
+（4）确认测试：主要检查已实现的软件是否满足需求规格说明书中确定了的各种需求。（2分）
+（5）系统测试：把已确认的软件与其它系统元素结合在一起进行测试。（2分）"
+CPT010,请介绍一下测试驱动开发(TDD)的流程。,13,"测试驱动开发是一种先写测试代码,再写实现代码的开发方法。（2分）它主要包括以下的流程:首先,编写一个失败的测试用例,描述需求的一个方面;（2分）然后,编写足够简单的实现代码,使测试用例能够通过;（2分）接着,重构代码,保持代码的简洁性和可维护性;（2分）最后,重复上述步骤,逐渐完善功能。（2分）通过使用TDD,可以提高代码的质量、可测试性和可维护性。（3分）"
+CPT011,什么是代码审查？其目的是？,5,代码审查是对源代码进行检查和评估的过程。（2分）其主要目的是发现和修复代码中的错误，提高代码质量，促进知识共享和团队协作。（3分）
+CPT012,"请解释什么是用户故事,以及它们在敏捷开发中的作用.",6,"用户故事是一种用于描述软件功能的简短故事,通常从用户的角度出发,描述用户要达成的目标以及为实现这个目标需要的功能。（3分）在敏捷开发中,用户故事是需求的一种形式,用于指导开发团队的工作。（3分）"
+CPT013,简述验证和确认以及它们的区别,10,"验证:证实一个过程或项目的每一个软件工作产品/服务是否正确地反映所规约的需求。（2分）确认:证实所期望的软件工作产品是否满足其需求。（2分）两者的区别:验证是通过提供的客观证据,证实规约的需求是否得以满足。（3分）确认是通过提供的客观证据,证实有关特定期望的使用或应用的需求是否得以满足。（3分）"
+CPT014,软件设计的基本原理包括哪些内容？,8,"⑴模块化：模块是软件的组成部分，是具有独立功能且可命名的一段程序，所有模块组成整体，可以满足问题的要求。（2分）⑵抽象：认识复杂现象过程所使用权的工具，只考虑事物本质的共同特性，忽略细节和其它因素。通过抽象确定组成软件的过程实体。（2分） ⑶信息隐蔽：将模块实现自身功能的细节与数据""隐蔽""起来。模块间仅交换为完成系统功能所必须的信息。（2分）⑷模块独立性：每个模块只完成系统要求的独立的子功能。（2分）"
+CPT015,请简述可行性研究有哪些步骤?,8,复查系统规模和目标；（2分）研究当前的系统；（2分）导出新系统的高层逻辑模型；（2分）重新定义问题；（2分）导出和评价可供选择的解决方案；（2分）推荐可行的行动方案；（2分）草拟开发计划；（2分）书写文档并提交审查。（2分）
+CPT016,黑盒测试和白盒测试有什么区别?,10,（1）黑盒测试法: 把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。（1分）它只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息的完整性。（2分）黑盒测试又称为功能测试，包含等价类划分法、边界值法、错误推测法、因果图法等。（2分）（2）白盒测试法: 是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。（1分）这种方法按照程序内部的逻辑测试程序，检测程序中的主要执行通路是否都能按预定要求正确工作。（2分）白盒测试又称为结构测试，包含逻辑覆盖法和基本路径测试法。（2分）
+CPT017,简述文档在软件工程中的作用,12,"(1)提高软件开发过程的能见度；（2分）
+(2)提高开发效率；（2分）
+(3)作为开发人员阶段工作成果和结束标志；（2分）
+(4)记录开发过程的有关信息便于使用与维护；（2分）
+(5)提供软件运行、维护和培训有关资料；（2分）
+(6)便于用户了解软件功能、性能。（2分）"
+CPT018,软件模块设计需遵循哪些准则,12,"(1)降低模块之间的耦合性，提高模块的内聚性（2分）
+(2)模块结构的深度、宽度、扇出和扇入应适当（2分）
+(3)模块的作用范围应该在控制范围内（2分）
+(4)模块接口设计要简单，以便降低复杂程度和冗余度（2分）
+(5)设计功能可预测并能得到验证的模块（2分）
+(6)适当划分模块规模，以保持其独立性（2分）"
+CPT019,软件架构在软件工程中的作用是什么?,4,软件体系结构定义了软件系统的高级结构，包括其组件及其相互作用。（2分）它通过为系统设计提供蓝图来确保可伸缩性、可靠性和可维护性。（2分）
+CPT020,请简述软件开发的敏捷开发模式及其优势.,6,"敏捷开发是一种迭代式开发方法,它强调快速响应变化和持续交付价值。（1分）在敏捷开发中,开发团队通过短周期的迭代来交付产品功能,每个迭代都包括需求分析、设计、编码、测试和部署等环节。（2分）敏捷开发的优点包括快速响应变化、提高开发效率、提高产品质量、增强团队沟通与协作等。（2分）敏捷开发能够适应快速变化的需求,并且能够及时反馈给利益相关者,从而更好地满足用户需求。（1分）"

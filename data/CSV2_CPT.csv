@@ -1,0 +1,49 @@
+﻿QuestionCode,StudentAns1,ManualScore,StudentAns2,ManualScore
+CPT001,"The key phases of the SDLC are:
+1.	Requirement Gathering: Collecting requirements from stakeholders.
+2.	System Analysis and Design: Analyzing requirements and creating a blueprint.
+3.	Implementation: Writing the code.
+4.	Testing: Checking the system for defects.
+5.	Deployment: Releasing the software to users.
+6.	Maintenance: Providing support after deployment.
+","9/12 points
+“<Point1:True>,<Point2:False>,<Point3:True>,<Point4:True>, <Point5:True>, <Point6:True>, <Point7:True>,<Point8:False>,<Point9:True>,<Point10:True>,<Point11:True>,<Point12:False>”
+","The key phases of the SDLC are:
+1.	Requirement Gathering: Understanding what the software needs to do by talking to stakeholders.
+2.	System Analysis and Design: Creating a detailed plan and design for the software.
+3.	Implementation (Coding): Developing the software based on the design.
+4.	Testing: Ensuring the software works correctly by finding and fixing bugs.
+5.	Deployment: Making the software available to the users.
+6.	Maintenance: Keeping the software running smoothly and making improvements.
+","9/12 points
+“<Point1:True>,<Point2:True>,<Point3:True>, <Point4:True>, <Point5:True>, <Point6:True>, <Point7:True>,<Point8:True>,<Point9:True>,<Point10:True>,<Point11:True>,<Point12:True>”
+"
+CPT002,"The Waterfall model is a linear and sequential approach where each phase must be completed before the next one begins. The process flows in one direction like a waterfall, meaning that once you finish one phase, you move to the next without going back. This makes changes difficult to implement because you would have to revisit and potentially redo the previous phases.
+On the other hand, the Agile model is iterative and incremental, focusing on flexibility, collaboration, and customer feedback. Development happens in small increments called iterations, which allows for regular reassessment and adaptation. Agile allows for continuous feedback from stakeholders, making it easier to adapt to changing requirements. Changes can be made at any stage, accommodating evolving needs and priorities.","9/9 points
+“<Point1:True>,<Point2:True>,<Point3:True>, <Point4:True>, <Point5:True>, <Point6:True>, <Point7:True>”","The Waterfall model is a linear and sequential approach where you complete one phase before starting the next. It’s like a straight path, and you can’t go back easily if you need to make changes.
+Agile is more flexible and iterative. It allows for small, repeated cycles of development with ongoing feedback. This means changes can be made at any time, which helps in adapting to new requirements.","7/9 points
+“<Point1:True>,<Point2:False>,<Point3:True>,<Point4:True>,<Point5:False>,<Point6:True>, <Point7:True>”"
+CPT003,Cohesion indicates how closely related the elements within a module are. It measures the strength of the relationship between the data and the methods in a class. High cohesion means that the elements in a module are related and work together well. Low cohesion means that the elements are not closely related and do not have a clear purpose.,"7/8 points “<Point1:True>, <Point2:True>,<Point3:False>, <Point4:True>, <Point5:True>”","Cohesion is about how strongly related the parts of a module are. It shows how well the data and methods in a class are connected and their shared purpose. High cohesion means everything in the module works together towards a common goal, while low cohesion means the elements are not well connected and don't serve a clear purpose.","8/8 points: “<Point1:True>, <Point2:True>,<Point3:True>, <Point4:True>, <Point5:True>”
+"
+CPT004,"Internal milestones in software engineering are measurable and important attributes of processes. They are standard systematic procedures that indicate that the engineers are on the right path. These milestones can be used to assess the development team's progress, identify issues and risks, and make necessary adjustments to the project plan. They can be related to various aspects of the project, such as completing a specific feature, testing and debugging the code, or reaching a certain level of performance or functionality.","11/11 points
+“<Point1:True>,<Point2:True>,<Point3:True>,<Point4:True>,<Point5:True>,<Point6:True>, <Point7:True>,<Point8:True>,<Point9:True>”","Internal milestones in software engineering are checkpoints that help track the progress of a project. These are important indicators to see if the engineers are on track. They help assess progress, identify problems, and make changes to the project plan if needed. Milestones can include finishing a feature, testing and debugging, or achieving a specific performance level.","8/11 points
+“<Point1:False>,<Point2:False>,<Point3:True>,<Point4:True>,<Point5:True>,<Point6:True>, <Point7:True>,<Point8:True>,<Point8:True>,<Point9:True>”"
+CPT005,"The Rapid Application Development (RAD) model is an iterative and prototyping method used in software development. It focuses on reducing the time spent on planning and emphasizes quick development. The model involves a series of smaller development cycles such as planning, design, construction, and testing. The goal is to deliver functional software quickly to clients and stakeholders. The RAD model also uses feedback from end-users and stakeholders to continuously improve the software.","7/7 points
+“<Point1:True>,<Point2:True>,<Point3:True>,<Point4:True>,<Point5:True>”
+","The RAD model is a software development approach that emphasizes speed and flexibility. It is iterative and involves creating prototypes. The model minimizes the time spent on detailed planning and focuses more on the actual development. It includes multiple short development cycles such as planning, design, construction, and testing. The aim is to quickly deliver functional software to clients and stakeholders. The RAD model relies heavily on feedback from users to improve and refine the software continuously.","7/7 points
+“<Point1:True>,<Point2:True>,<Point3:True>,<Point4:True>,<Point5:True>”"
+CPT006,顺序图展示了对象之间的交互及其消息传递的顺序，强调的是时间顺序和对象之间的通信。它用于描述系统中不同对象之间的协作，帮助理解系统的执行流程。活动图则展示了系统中的活动流程，强调的是活动的控制流和条件分支。它用于描述业务流程或系统功能的执行过程，帮助理解系统的逻辑控制。顺序图适合用来描述具体的对象交互细节，而活动图更适合用来描述系统的整体业务流程和活动间的顺序关系。两者相辅相成，共同帮助理解系统的行为和结构。,6分/6,,
+CPT007,敏捷开发的核心价值包括个体和互动高于过程和工具，工作软件高于详尽文档，客户合作高于合同谈判，响应变化高于遵循计划。敏捷开发的原则包括：通过持续交付有价值的软件来满足客户需求，欢迎需求变化，即使在开发后期，也能及时响应；频繁交付可工作的软件，从几周到几个月，越快越好；业务人员和开发人员必须天天在一起工作；激励开发团队，提供所需的环境和支持，信任他们完成任务；面对面的沟通是最有效的沟通方式；工作的软件是进度的主要度量标准；保持可持续的开发速度；追求技术卓越和良好的设计；简单是关键；最佳架构、需求和设计来自自组织团队；定期反思如何更有效地工作，并相应地调整行为。,8分/8,,
+CPT008,需求分析是确定用户需求并将其转化为详细的系统需求规格说明书的过程。需求分析的基本任务包括：收集用户需求，通过访谈、问卷、观察等方法获取用户的实际需求；分析和理解用户需求，识别系统的功能需求和非功能需求；确定系统的边界和范围，明确系统需要实现的功能和限制条件；编写需求规格说明书，详细描述系统的功能和性能需求，作为开发和测试的依据；进行需求评审，与用户和项目相关人员确认需求的准确性和完整性，确保需求规格说明书的可行性和可验证性。需求分析的目的是确保开发团队和用户对系统需求有统一的理解，为后续的设计和开发提供明确的指导。,5分/5,,
+CPT009,软件测试通常包括单元测试、集成测试、系统测试和验收测试。单元测试是针对最小的代码单元进行测试，确保每个模块功能正常。集成测试是将多个模块集成后进行测试，检查模块间的接口和交互是否正确。系统测试是在集成完成后，对整个系统进行全面测试，验证系统的功能、性能和安全性。验收测试是由用户进行的测试，验证系统是否满足用户需求和业务目标。每个测试阶段都有其特定的任务，单元测试关注代码的正确性，集成测试关注模块间的兼容性，系统测试关注系统的整体功能，验收测试关注系统的用户满意度和实际应用效果。,9分/10,,
+CPT010,测试驱动开发（TDD）是一种开发方法，它的核心是先写测试代码，再写实现代码。TDD的流程是这样的：首先，开发者会根据需求编写一个测试用例，这个测试用例在现有代码下应该是无法通过的，因为它代表了一个新的需求或功能。然后，为了让这个测试用例通过，开发者会编写最简单的实现代码。接着，在测试通过后，对代码进行重构，以提高代码的质量和可维护性。这个过程是一个循环，不断地编写新的测试用例，编写实现代码，通过测试，再重构代码，逐步完善系统的功能。通过这种方式，TDD能够显著提高代码的质量、可测试性和可维护性。,13分/13,,
+CPT011,代码审查是对源代码进行检查和评估的过程。其目的是发现和修复代码中的错误，提高代码质量，促进知识共享和团队协作。在代码审查的过程中，团队成员会互相查看和评估彼此的代码，从而找出潜在的问题和改进的地方。这样不仅能确保代码的正确性和高质量，还能让团队成员互相学习，共同进步。,5分/5,,
+CPT012,用户故事是简洁的功能描述，通常从用户角度出发，描述他们的需求和期望。在敏捷开发中，用户故事作为需求的主要形式，帮助团队理解和实现用户期望的功能。它们通过简单的语言描述功能，并明确优先级，以便团队在每个迭代中优先完成最有价值的功能，从而持续交付有意义的软件产品。,6分/6,,
+CPT013,验证和确认是软件开发过程中两个关键的概念，用于确保软件产品符合预期需求和用户期望。验证是指通过提供的客观证据，检验软件工作产品或服务是否正确地反映了规定的需求。它关注的是软件是否按照规格说明书的要求进行实现和操作。确认则是验证软件工作产品是否满足其需求，即实际上是否能够满足用户的特定期望和应用需求。确认侧重于验证软件在实际使用中的效果和表现。两者的区别在于验证着眼于软件是否正确实现了规定的功能，而确认则关注软件是否在实际使用中满足了用户的预期需求和期望。,10分/10,,
+CPT014,软件设计的基本原理包括模块化、抽象、信息隐蔽和模块独立性。模块化是将软件拆分为独立的功能模块，每个模块都可以单独命名和开发，最终组合成完整的系统以满足需求。抽象是理解和概括问题本质的过程，通过抽象确定软件设计的实体。信息隐蔽则是保持模块内部实现的细节和数据私密，模块之间仅通过必要的信息交互来完成系统功能。模块独立性指每个模块只完成系统要求的独立子功能，减少模块间的耦合，提高系统的灵活性和可维护性。,8分/8,,
+CPT015,可行性研究包括以下步骤：首先是复查系统的规模和目标，确保了解系统需要达到的目标和其规模。其次是研究当前的系统，分析现有系统的问题和不足。接下来是导出新系统的高层逻辑模型，明确新系统的设计蓝图和结构。然后是重新定义问题，确保新系统能够有效解决现有系统中的问题。接着是导出和评价可供选择的解决方案，比较不同解决方案的优缺点。然后是推荐可行的行动方案，选择最适合的解决方案进行实施。最后是草拟开发计划，安排实施新系统的具体步骤和时间表，并书写相关文档提交审查。,16分/16,,
+CPT016,黑盒测试是基于软件的功能需求和用户场景进行的测试，不需要了解程序的内部实现。测试人员只关注输入和输出的正确性，通过测试用例来验证系统的功能。白盒测试则是基于程序内部结构和逻辑进行的测试，测试人员需要了解代码和实现，主要关注程序的控制流和数据流。黑盒测试能够发现功能性问题和用户界面问题，白盒测试能够发现代码中的逻辑错误和边界条件问题。两者结合使用可以更全面地保证软件质量。,6分/10,,
+CPT017,文档在软件工程中扮演着多重重要角色。首先，它们提高了软件开发过程的能见度，使得整个开发团队能够清晰地了解项目的进展和各阶段的完成情况（2分）。其次，文档有助于提高开发效率，因为开发人员可以根据文档快速理解需求和设计细节（2分）。此外，文档还作为开发人员阶段性工作成果和项目结束的标志，帮助团队在开发周期内保持组织和管理（2分）。另外，文档记录了开发过程中的关键信息，包括设计决策、问题解决方案等，这些信息在软件维护和升级时非常有价值（2分）。此外，文档还提供了软件运行、维护和培训的相关资料，有助于用户理解软件的功能和性能，提升用户体验和接受度（2分）。,10分/12,,
+CPT018,软件模块设计需要遵循几个关键准则以确保模块的质量和系统的可维护性。首先，要降低模块之间的耦合性，同时提高模块的内聚性，这有助于模块之间的独立性和复用性（2分）。其次，模块的结构包括深度、宽度、扇出和扇入应适当，这样可以保持系统的结构清晰和可管理性（2分）。另外，模块的作用范围应该在控制范围内，避免模块功能过于复杂或松散（2分）。此外，模块接口设计应简单，以降低复杂度和冗余，使得模块之间的通信和集成更加顺畅（2分）。还有，设计功能可预测并能得到验证的模块，确保每个模块按照设计预期正常运行（2分）。最后，适当划分模块规模，以保持其独立性和可维护性，同时便于模块的重用和替换（2分）。,12分/12,,
+CPT019,软件体系结构定义了软件系统的高级结构，包括其组件及其相互作用。这一点强调了软件架构在定义系统的整体结构和组成部分方面的重要性。软件架构通过为系统设计提供蓝图，确保了系统的可伸缩性、可靠性和可维护性。这表明软件架构不仅仅是一个静态的设计方案，还关注系统在长期运行中如何满足性能、可靠性和维护的需求。,10分/10,,
+CPT020,敏捷开发是一种软件开发方法论，强调通过迭代和增量的方式快速响应变化和交付软件。在敏捷开发中，开发团队通常将开发周期划分为多个短期的迭代周期，每个迭代周期内包含需求分析、设计、编码、测试和部署等环节。这种方法注重的是灵活性和协作，能够让开发团队根据用户反馈和市场需求快速调整和优化软件功能。通过持续的交付和快速迭代，敏捷开发能够提高开发效率，增强产品质量，并促进团队内外的有效沟通与协作。,6分/6,,

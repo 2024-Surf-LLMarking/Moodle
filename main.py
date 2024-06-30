@@ -5,11 +5,6 @@ import client
 from db_utils import MoodleDB
 from configparser import ConfigParser
 
-
-
-
-
-
 def db_to_csv(db):
     """
     数据表转成大模型可以识别的csv文件

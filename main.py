@@ -28,26 +28,30 @@ if __name__ == '__main__':
     }
 
     db = MoodleDB(**config)
-    old_question_attempts = None
+    old_question_attempts = db.get_question_attempts('mdl_question_attempts')
     # 主循环
     while True:
+        db.commit()
         quesition_attempts = db.get_question_attempts('mdl_question_attempts')
+        print(quesition_attempts)
         if old_question_attempts != quesition_attempts:
-            unmarked_csv = db_to_csv(quesition_attempts)
-            # 大模型服务器地址
-            url = "http://127.0.0.1:8000"
-            # 发送POST请求
-            data = {'question_database': 'CPT',
-                    'return_format': 'CSV',
-                    'unmarked_csv': unmarked_csv
-                    }
+            print("有新的数据,共有{}条数据".format(len(quesition_attempts)-len(old_question_attempts)))
+            new_question_attempts = quesition_attempts[:]
+            print(new_question_attempts)
 
-            # 拿到打分后的csv文件
-            response_csv = client.get_mark(url, data)
-
-            db.mark_question_attempts(0.5, 1)
-
-
-        time.sleep(10)
+            # unmarked_csv = db_to_csv(quesition_attempts)
+            # # 大模型服务器地址
+            # url = "http://127.0.0.1:8000"
+            # # 发送POST请求
+            # data = {'question_database': 'CPT',
+            #         'return_format': 'CSV',
+            #         'unmarked_csv': unmarked_csv
+            #         }
+            #
+            # # 拿到打分后的csv文件
+            # response_csv = client.get_mark(url, data)
+            #
+            # db.mark_question_attempts(0.5, 1)
+        time.sleep(1)
         old_question_attempts = quesition_attempts
     db.close()

@@ -29,9 +29,10 @@ class MoodleDB:
         cursor.close()
         return results
 
-    def mark_question_attempts(self, grade: float, user_id: int):
+    def mark_question_attempts(self, question_id, grade: float, user_id: int):
         """
         批改题目
+        :param question_id: 题目的id
         :param grade: 分数百分比 [0, 1]
         :param user_id: 打分人的id
         :return:
@@ -46,7 +47,6 @@ class MoodleDB:
 
         # 获取最后一条记录的id
         datasheet_id = question_attempts_steps[-1][0] + 1
-        question_id = question_attempts_steps[-1][1]
 
         # 获取当前题目的序号
         count = 0
@@ -67,19 +67,21 @@ class MoodleDB:
         cursor.execute(sql)
         self.db.commit()
 
-        unique_id = question_attempts_steps[-1][1]
-
         # 修改该题的打分(学生端)
         sql = """
         UPDATE mdl_quiz_attempts
         SET sumgrades = {}
         WHERE uniqueid = {}
-        """.format(grade, unique_id)
+        """.format(grade, question_id)
         cursor.execute(sql)
         self.db.commit()
         cursor.close()
+    def commit(self):
+        self.db.commit()
 
     def close(self):
         # 关闭游标和数据库连接，释放资源
         self.db.close()
+
+
 
